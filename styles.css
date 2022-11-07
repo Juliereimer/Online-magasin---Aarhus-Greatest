@@ -1,0 +1,249 @@
+/* Forside */
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 210px;
+
+}
+
+
+header{
+    background-color: #b4a181;
+    width: 100%;
+    border-bottom: 1px solid #595a41;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 10px;
+    font-size: 20px;
+    padding-bottom: 12px;
+    height: 240px;
+}
+
+.headerlinks{
+    text-align: left;
+
+}
+
+.searchicon{
+    float: right;
+}
+
+header img {
+height: 200px;
+padding-top: 10px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    color: #fefdfa;
+    padding: 75px;
+    font-weight: 50;
+    
+}
+
+main{
+    margin-top: 50px;
+}
+
+
+.cardscontainer div{
+    width: 350px;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.cardscontainer div h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.cardscontainer div h3{
+    font-weight: 50;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cardscontainer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 450px;
+}
+
+.cardscontainer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: #b4a181;
+    width: 100%;
+    height: 150px;
+}
+
+.socialicons{
+    font-size: 40px;
+    color: white;
+    text-align:left;
+    letter-spacing: 4px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.main-image{
+    position: relative;
+    text-align: center;
+}
+
+
+.main-image h1{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: #695a41;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 100;
+
+}
+
+
+.main-image h3{
+    position: absolute;
+    top: 25%;
+    left: 52%;
+    color: #695a41;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 50;
+}
+
+.main-image a{
+    text-decoration: none;
+    color: #695a41;
+
+}
+
+
+/* Artikel om mode */
+
+.verasbillede{
+    text-align: center;
+}
+
+.indledning{
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+
+.indledningbrødtekst{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    line-height: 35px;
+}
+
+
+.overskrift{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight:lighter;
+}
+
+
+.afsnitoverskrift{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10%;
+}
+
+.brødtekst{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 35px;
+}
+
+
+.kategori{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #695a41;
+    font-weight: lighter;
+}
+
+
+  .veras{
+    text-align:center;
+    width: auto;
+    padding-top: 30px;
+  }
+
+.brødtekst span{
+    text-decoration: underline;
+    color: black;
+}
+
+
+.tabel{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabel col.left{
+    width: 55%;
+}
+
+.tabel col.right{
+    width: 45%;
+}
+
+.billedertabel td{
+    width: 100%;
+}
+
+#godsbanen{
+    padding-left: 300px;
+}
+
+/* Artikel om mad */
+
+
+.cafe{
+    text-align: center;
+}
+
+.stedkursiv{
+    font-style: oblique;
+}
+
+
+#lynfabrikken{
+    padding-left: 300px;
+}
+
+/* Artikel om mad */
+
+.rådhuskultur{
+    text-align: center;
+}
+
+/* Artikel om kultur */
+
+#teaterudenfor{
+    padding-left: 300px;
+}
